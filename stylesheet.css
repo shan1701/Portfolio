@@ -1,0 +1,134 @@
+/*Navigation CSS styles*/
+nav {
+	list-style-type: none;/*removes the bullet points from a list*/
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #00264d;/*sets the background colour for the navigation*/
+	position:fixed;/*fixed position stops the navigation from moving around the page*/
+	width:100%;/*Sets the navigation to have  awidth of the whole page*/
+	top:0;
+	left:0;
+}
+
+nav li {
+	float:left;/*styles the nav links to the left*/
+}
+
+nav li a { /*sets the styles for the links themselves including colouring, alignment and removes underlines*/
+	display:block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	font: 100% verdana;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a.active {/*Sets styles for the current page in the navigation*/
+	background-color: #c4f2f2;
+	color:black;
+}
+
+@media screen and (max-width:600px) {/*allows the navigation to become responsive depending on screen size*/
+	nav li {float:none; color: black;}
+}
+
+
+/*Generic styling for web pages*/
+
+body{/*sets the styles for content inside the body*/
+	font: 100% verdana;
+	padding:5%;
+}
+
+h1 {/*sets the styles for specific h1 elements*/
+	width:100%;
+	text-align:center;
+	font-size:35px;
+}
+
+h2 {/*sets the styles for specific h2 elements*/
+	text-align:center;
+	font-size:25px;
+}
+
+h3 {/*sets the styles for specific h3 elements*/
+	text-align:center;
+	font-size:20px;
+}
+
+p {/*sets the styles for specific p elements*/
+	text-align:center;
+	font-size:15px;
+}
+
+
+a.previous {/*sets the styling for the a element with class previous*/
+	background-color: red;
+	color: white;
+	padding: 1%;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: fixed;
+	bottom:20%;
+	left:10%;
+}
+
+/*Sets the CSS styles for the Footer*/
+
+footer { /*sets the styles for the overall footer*/
+	background-color: #00264d;
+	color: white;
+	position: fixed;/*Allows the footer to be fixed to the bottom of the page*/
+	left:0;
+	bottom:0;
+	width:100%;
+	font:100% helvetica;
+}
+
+footer ul{/*sets the styles for specific ul elements inside the footer*/
+	list-style:none;
+}
+
+footer ul li a{/*sets the styles for specific elements inside the footer*/
+	text-decoration:none;
+	color:white;
+}
+
+
+/*Styles for the different classes created*/
+.profile{/*sets the styles for profile picture*/
+	transform: rotate(270deg);/*making sure th picture is the right way up*/
+	display: block;
+	margin-left: auto;/*Makes sure the image is centred*/
+	margin-right:auto;
+}
+
+.main{/*sets the styles for main header on the home page*/
+	font-size: 50px;
+
+}
+
+.main2{/*sets the styles for introduction sentence on the home page*/
+	font-size: 30px;
+
+}
+
+.project {/*sets the styles for project lists so the sections are next to eachother and not overlapping*/
+	width:47%;
+	float:left;
+	padding:1%;
+}
+
+.right {/*sets the styles for floating to the right*/
+	float:right;
+	width:30%;
+	padding:1%;
+}
+
+.left {/*sets the styles for floating elements to the left*/
+	float:left;
+	width:30%;
+	padding:1%;
+}

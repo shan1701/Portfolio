@@ -40,7 +40,7 @@ nav li a.active {/*Sets styles for the current page in the navigation*/
 body{/*sets the styles for content inside the body*/
 	font: 100% verdana;
 	height:100%;
-	padding-top:5%;
+	padding-top:70px;
 	
 }
 

@@ -12,7 +12,7 @@ nav {
 }
 
 nav li {
-	float:left;/*styles the nav links to the left*/
+	float:right;/*styles the nav links to the left*/
 }
 
 nav li a { /*sets the styles for the links themselves including colouring, alignment and removes underlines*/
@@ -39,7 +39,7 @@ nav li a.active {/*Sets styles for the current page in the navigation*/
 
 body{/*sets the styles for content inside the body*/
 	font: 100% verdana;
-	padding:5%;
+	height:100%;
 }
 
 h1 {/*sets the styles for specific h1 elements*/
